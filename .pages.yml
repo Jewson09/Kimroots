@@ -1,0 +1,96 @@
+media:
+  input: img
+  output: /img
+  extensions: [jpg, jpeg, png, webp]
+  rename: safe
+
+content:
+  - name: sitio
+    label: "Contenido del sitio"
+    type: file
+    path: contenido/sitio.json
+    format: json
+    fields:
+      - name: aviso
+        label: "Aviso destacado (opcional)"
+        type: string
+        description: "Una frase que aparece en una franja arriba del sitio. Déjalo vacío para ocultarla."
+      - name: inicio
+        label: "Inicio"
+        type: object
+        fields:
+          - name: texto
+            label: "Texto de presentación"
+            type: text
+      - name: historia
+        label: "Nuestra historia"
+        type: object
+        fields:
+          - name: foto
+            label: "Foto de Kimberlie"
+            type: image
+          - name: parrafo1
+            label: "Párrafo 1"
+            type: text
+          - name: parrafo2
+            label: "Párrafo 2"
+            type: text
+      - name: servicios
+        label: "Servicios"
+        type: object
+        list:
+          collapsible: true
+        fields:
+          - name: nombre
+            label: "Nombre del servicio"
+            type: string
+            required: true
+          - name: descripcion
+            label: "Descripción"
+            type: text
+          - name: precio
+            label: "Precio (opcional)"
+            type: string
+            description: "Ej.: Desde RD$ 2,500. Vacío = no se muestra."
+      - name: galeria
+        label: "Galería de fotos"
+        type: object
+        list:
+          collapsible: true
+        fields:
+          - name: foto
+            label: "Foto"
+            type: image
+            required: true
+          - name: titulo
+            label: "Título (ej.: Knotless Braids)"
+            type: string
+      - name: preguntas
+        label: "Preguntas frecuentes"
+        type: object
+        list:
+          collapsible: true
+        fields:
+          - name: pregunta
+            label: "Pregunta"
+            type: string
+            required: true
+          - name: respuesta
+            label: "Respuesta"
+            type: text
+      - name: contacto
+        label: "Contacto"
+        type: object
+        fields:
+          - name: whatsapp
+            label: "Número de WhatsApp (solo cifras, con 1 delante)"
+            type: string
+          - name: telefono
+            label: "Teléfono visible"
+            type: string
+          - name: direccion
+            label: "Dirección"
+            type: string
+          - name: horario
+            label: "Horario (opcional)"
+            type: string
