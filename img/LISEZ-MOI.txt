@@ -1,0 +1,14 @@
+METS TES PHOTOS ICI (dans ce dossier "img")
+
+Renomme-les exactement comme ça :
+  foto1.jpg  -> Box Braids
+  foto2.jpg  -> Knotless Braids
+  foto3.jpg  -> Twists
+  foto4.jpg  -> Peinados protectores
+  foto5.jpg  -> Tratamientos
+  foto6.jpg  -> Crecimiento
+  kimberlie.jpg -> photo de Kimberlie (section "Nuestra historia")
+
+- Format : .jpg (en minuscules). Une photo absente = le bloc de couleur reste affiché.
+- Photos verticales de préférence. Moins de 500 Ko chacune (compresse sur squoosh.app ou tinypng.com).
+- Ensuite : glisse tout le dossier "kimroots" dans Netlify > Deploys.

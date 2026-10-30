@@ -1,0 +1,34 @@
+{
+  "aviso": "",
+  "inicio": {
+    "texto": "En KimRoots acompañamos a cada mujer en su transformación capilar: trenzas que protegen, tratamientos que hacen crecer y una elegancia que nace desde adentro."
+  },
+  "historia": {
+    "foto": "",
+    "parrafo1": "Soy Kimberlie Jean Baptiste, emprendedora apasionada por la belleza y la transformación capilar. KimRoots nació de una convicción sencilla: toda mujer merece sentirse bella, segura y orgullosa de sus raíces — las de su cabello y las de su identidad.",
+    "parrafo2": "«Roots» significa raíces: habla del cabello, pero también de crecimiento y transformación. Esa doble promesa la llevo en cada peinado: proteger hoy para crecer mañana."
+  },
+  "servicios": [
+    { "nombre": "Box Braids", "descripcion": "Trenzas clásicas, bien definidas, para una duración prolongada y un acabado impecable.", "precio": "" },
+    { "nombre": "Knotless Braids", "descripcion": "Trenzas sin nudo en la base: más ligeras, más naturales y más suaves para el cuero cabelludo.", "precio": "" },
+    { "nombre": "Twists", "descripcion": "Torzadas cuidadas, ideales para un estilo natural, con textura y fácil de mantener.", "precio": "" },
+    { "nombre": "Peinados protectores", "descripcion": "Estilos que reducen la rotura y dejan que tu cabello natural descanse y crezca.", "precio": "" },
+    { "nombre": "Lavado profesional", "descripcion": "Limpieza profunda del cuero cabelludo y del largo, con productos adaptados a tu cabello.", "precio": "" },
+    { "nombre": "Masaje capilar", "descripcion": "Un momento de relajación que estimula la circulación y prepara el cuero cabelludo para el tratamiento.", "precio": "" },
+    { "nombre": "Tratamientos de crecimiento", "descripcion": "Rituales específicos para fortalecer la fibra capilar y estimular un crecimiento sano y duradero.", "precio": "" }
+  ],
+  "galeria": [],
+  "preguntas": [
+    { "pregunta": "¿Cuánto tiempo dura una cita?", "respuesta": "Depende del estilo, del largo y del grosor de las trenzas. Al reservar te damos un tiempo estimado para que puedas organizarte." },
+    { "pregunta": "¿Cuánto cuesta un peinado?", "respuesta": "El precio varía según el estilo y el largo. Mándanos una foto de referencia por WhatsApp y te damos el precio exacto." },
+    { "pregunta": "¿Cómo debo preparar mi cabello?", "respuesta": "Lo ideal es llegar con el cabello limpio y desenredado. Si lo prefieres, podemos hacer el lavado profesional antes del peinado." },
+    { "pregunta": "¿Cuánto tiempo puedo llevar mis trenzas?", "respuesta": "En general entre 4 y 8 semanas, según el estilo y el cuidado. No es recomendable dejarlas mucho más tiempo, para no dañar tus raíces." },
+    { "pregunta": "¿Cómo cuido mis trenzas en casa?", "respuesta": "Hidrata el cuero cabelludo con regularidad, duerme con un pañuelo o gorro de satén y evita peinados que tiren demasiado de la base." }
+  ],
+  "contacto": {
+    "whatsapp": "18094454151",
+    "telefono": "809-445-4151",
+    "direccion": "Mendoza, Calle José Francisco Peña Gómez, Santo Domingo, República Dominicana",
+    "horario": ""
+  }
+}
